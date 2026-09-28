@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Graph Paper Layout</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="brand">GridFrame</div>
+        <nav class="nav" aria-label="Main navigation">
+          <a href="#">Overview</a>
+          <a href="#">Layout</a>
+          <a href="#">Components</a>
+          <a href="#">Docs</a>
+        </nav>
+      </header>
+
+      <main class="content-grid" aria-label="Graph paper content layout">
+        <section class="card hero span-8">
+          <div class="eyebrow">Responsive alignment</div>
+          <h1>Design with a graph paper grid that stays consistent.</h1>
+          <p>
+            The grid spacing is controlled by a single CSS variable, so the layout
+            stays proportionally aligned across large and small screens without
+            breaking visual rhythm.
+          </p>
+          <div class="cta-row">
+            <button>Start a layout</button>
+            <button class="secondary">View specs</button>
+          </div>
+        </section>
+
+        <aside class="card stat-panel span-4">
+          <div class="metric">
+            <span class="label">Grid unit</span>
+            <strong>24px</strong>
+          </div>
+          <div class="metric">
+            <span class="label">Columns</span>
+            <strong>12</strong>
+          </div>
+          <div class="metric">
+            <span class="label">Scale</span>
+            <strong>Adaptive</strong>
+          </div>
+        </aside>
+
+        <section class="card span-6">
+          <div class="mini-header">
+            <span class="dot blue"></span>
+            <span>Layout system</span>
+          </div>
+          <h2>Stable spacing, flexible screens.</h2>
+          <p>
+            Define the grid once and use it for margins, gaps, and content blocks.
+            That creates a consistent rhythm even when the browser width changes.
+          </p>
+        </section>
+
+        <section class="card span-6">
+          <div class="mini-header">
+            <span class="dot green"></span>
+            <span>Content planning</span>
+          </div>
+          <h2>Align content against the same visual baseline.</h2>
+          <p>
+            Cards, panels, and text blocks can all be placed according to the same
+            grid units, making alignment predictable and polished.
+          </p>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
